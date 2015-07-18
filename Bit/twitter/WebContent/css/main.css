@@ -1,0 +1,62 @@
+/* 파일명: /css/main.css */
+@CHARSET "UTF-8";
+
+body {
+	margin: 10px 0 0 10px;
+}
+
+div#top, div#timeline {
+	width: 800px;
+	margin: auto;
+}
+
+div#newTweet {
+	display: none;
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	margin: auto;
+	z-index: 10;
+	width: 400px;
+	height: 74x;
+	border: 3px solid #999999;
+	background-color: #cccccc;
+}
+
+#loginForm {
+	display: inline;
+	float: right;
+}
+
+input.login {
+	border: 1px solid gray;
+}
+
+.bg-yellow {
+	background-color: yellow;
+}
+
+.bg-gray {
+	background-color: gray;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#twits li {
+	list-style: none;
+	border: 1px solid gray;
+	margin-bottom: 10px;
+}
+
+li div {
+	display: block;
+	vertical-align: top;
+}
+
+li div.twit_content{
+	/* width:400px; */
+	border: 1px dashed gray;
+	word-break: break-all;
+}
